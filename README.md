@@ -34,8 +34,9 @@ Cors para gerenciar o controle de acesso entre o FrontEnd e o BackEnd.
 Estrutura do Projeto
 Abaixo está uma visão geral da estrutura de arquivos do projeto:
 
-csharp
-Copiar código
+---
+
+```bash
 Aplicacao_Web_FullStack
 │
 ├── client                  # Diretório do FrontEnd (React com Vite)
@@ -59,28 +60,40 @@ Aplicacao_Web_FullStack
 ├── README.md               # Explicação do projeto
 └── package.json            # Configuração do Node.js para o BackEnd
 
-Funcionalidades
-FrontEnd
-Página de Listagem de Produtos: Exibe produtos vindos da API.
-Estilo Responsivo: A interface é projetada para ser responsiva e amigável.
-Integração com API: Conexão com o BackEnd para listagem de dados.
-BackEnd
-API RESTful: Oferece endpoints para CRUD de produtos.
-Conexão com MongoDB: Armazena produtos e dados dos usuários.
-Controle de Acesso: Utilização de CORS para controle entre FrontEnd e BackEnd.
-Como Rodar o Projeto
-Pré-requisitos
+```
+---
+
+## Funcionalidades
+
+### FrontEnd
+- **Página de Listagem de Produtos**: Exibe produtos vindos da API.
+- **Estilo Responsivo**: A interface é projetada para ser responsiva e amigável.
+- **Integração com API**: Conexão com o BackEnd para listagem de dados.
+
+### BackEnd
+- **API RESTful**: Oferece endpoints para CRUD de produtos.
+- **Conexão com MongoDB**: Armazena produtos e dados dos usuários.
+- **Controle de Acesso**: Utilização de CORS para controle entre FrontEnd e BackEnd.
+
+---
+
+## Como Rodar o Projeto
+
+### Pré-requisitos
+
 Certifique-se de ter instalado:
+- **Node.js**
+- **MongoDB**
 
-Node.js
-MongoDB
-Configuração do BackEnd
-No terminal, vá até a pasta server e instale as dependências:
+### Configuração do BackEnd
 
-bash
-Copiar código
-cd server
-npm install
+1. No terminal, vá até a pasta `server` e instale as dependências:
+
+   ```bash
+   cd server
+   npm install
+
+
 Configure e inicie o servidor MongoDB, em seguida execute o servidor Node.js:
 
 bash
