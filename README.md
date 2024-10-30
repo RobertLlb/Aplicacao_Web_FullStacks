@@ -89,26 +89,29 @@ Certifique-se de ter instalado:
 
 1. No terminal, vá até a pasta `server` e instale as dependências:
 
-   ```bash
-   cd server
-   npm install
+```bash
+cd server
+npm install
+```
 
 
 Configure e inicie o servidor MongoDB, em seguida execute o servidor Node.js:
 
-bash
-Copiar código
+```bash
 node index.js
+
+```
 O servidor estará rodando em http://localhost:5000.
 
 Configuração do FrontEnd
 Em outro terminal, vá até a pasta client, instale as dependências e execute o Vite:
 
-bash
-Copiar código
+``` bash
+
 cd ../client
 npm install
 npm run dev
+```
 Acesse o FrontEnd no endereço que Vite fornecer, geralmente http://localhost:5173.
 
 Endpoints da API
@@ -118,10 +121,12 @@ GET /api/products - Retorna todos os produtos.
 POST /api/products - Adiciona um novo produto.
 PUT /api/products/:id - Atualiza um produto existente.
 DELETE /api/products/:id - Exclui um produto pelo ID.
+
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests para melhorias.
 
 Melhorias Futuras
+
 Autenticação: Adicionar autenticação de usuário.
 Carrinho de Compras: Implementar funcionalidades de carrinho e checkout.
 Painel Administrativo: Adicionar um painel para gerenciamento de produtos e usuários.
