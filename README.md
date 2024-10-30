@@ -13,28 +13,10 @@ Este projeto é uma aplicação de e-commerce completa com um FrontEnd em React 
 - Node.js e Express para a construção do servidor e API REST.
 - MongoDB e Mongoose para armazenamento e manipulação de dados.
 - Cors para gerenciar o controle de acesso entre o FrontEnd e o BackEnd.
+---
 
 ## Estrutura do Projeto
 
-Abaixo está uma visão geral da estrutura de arquivos do projeto:
-
-Preciso colcoar essas informações formatadas dentro do README.md:
-Aplicação Web Completa (Full Stack)
-Este projeto é uma aplicação de e-commerce completa com um FrontEnd em React (usando Vite) e um BackEnd em Node.js/Express, conectando-se a um banco de dados MongoDB para gerenciar produtos e informações de usuários.
-
-Tecnologias Utilizadas
-FrontEnd
-React com Vite para desenvolvimento rápido e otimizado.
-Axios para realizar chamadas HTTP ao servidor.
-CSS para estilização básica.
-BackEnd
-Node.js e Express para a construção do servidor e API REST.
-MongoDB e Mongoose para armazenamento e manipulação de dados.
-Cors para gerenciar o controle de acesso entre o FrontEnd e o BackEnd.
-Estrutura do Projeto
-Abaixo está uma visão geral da estrutura de arquivos do projeto:
-
----
 
 ```bash
 Aplicacao_Web_FullStack
@@ -95,7 +77,7 @@ npm install
 ```
 
 
-Configure e inicie o servidor MongoDB, em seguida execute o servidor Node.js:
+2. Configure e inicie o servidor MongoDB, em seguida execute o servidor Node.js:
 
 ```bash
 node index.js
@@ -103,29 +85,30 @@ node index.js
 ```
 O servidor estará rodando em http://localhost:5000.
 
-Configuração do FrontEnd
+# Configuração do FrontEnd
+
 Em outro terminal, vá até a pasta client, instale as dependências e execute o Vite:
 
 ``` bash
-
 cd ../client
 npm install
 npm run dev
 ```
 Acesse o FrontEnd no endereço que Vite fornecer, geralmente http://localhost:5173.
 
-Endpoints da API
-Abaixo estão os principais endpoints do BackEnd:
+# Endpoints da API
 
+Abaixo estão os principais endpoints do BackEnd:
+``` bash
 GET /api/products - Retorna todos os produtos.
 POST /api/products - Adiciona um novo produto.
 PUT /api/products/:id - Atualiza um produto existente.
 DELETE /api/products/:id - Exclui um produto pelo ID.
-
-Contribuição
+```
+# Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests para melhorias.
 
-Melhorias Futuras
+# Melhorias Futuras
 
 Autenticação: Adicionar autenticação de usuário.
 Carrinho de Compras: Implementar funcionalidades de carrinho e checkout.
